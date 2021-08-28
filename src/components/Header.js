@@ -20,7 +20,7 @@ const Header = () => {
               <span className="icon-bar" />
             </button>
             <a className="navbar-brand nav-item" href="/">
-              <img src="images/logo.png" alt="logo" />
+              <img src="images/logo.png" alt="logo" className="top-logo" />
             </a>
           </div>
           {/* Collect the nav links, forms, and other content for toggling */}

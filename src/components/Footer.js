@@ -9,7 +9,7 @@ const Footer = () => {
               <span className="copyright-text">All right resarved by <a href="https://www.youronlineconversation.com/">YOC</a></span>
             </div>
             <div className="col-md-4 col-sm-2 text-center">
-              <a href="index.html" className="footer-logo"><img src="images/logo.png" alt="logo" /></a>
+              <a href="/" className="footer-logo"><img src="images/logo.png" alt="logo" className="foot-logo" /></a>
             </div>
             <div className="col-md-4 col-sm-5 text-right mobile-center">
               <ul className="footer-links">

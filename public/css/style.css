@@ -137,7 +137,7 @@ body{
 	line-height:50px;
 	font-weight:900;
 	color:#fff;
-	background:#2fca2d;
+	background:#432300;
 	text-transform:uppercase;
 	padding:0 30px;
 	border:none;
@@ -174,7 +174,7 @@ body{
 	padding-top:15px;
 }
 .section-head h2 span{
-	color:#2fca2d;
+	color:#432300;
 }
 .side-head{
 	padding:28px 0;
@@ -183,7 +183,7 @@ body{
 	padding:11px 0 15px;
 }
 .side-head h2 span{
-	color:#2fca2d;
+	color:#432300;
 }
 
 .play-button{
@@ -194,13 +194,13 @@ body{
 	padding:5px;
 	display:block;
 	border-radius:50%;
-	background:rgba(47,202,45,0.2);
+	background:rgba(180, 102, 0, 0.2);
 }
 .play-button .pb-border-2{
 	padding:5px;
 	display:block;
 	border-radius:50%;
-	background:rgba(47,202,45,0.5);
+	background:rgba(119, 65, 3, 0.5);
 }
 .play-button .icofont{
 	height:50px;
@@ -209,7 +209,7 @@ body{
 	text-align:center;
 	font-size:18px;
 	border-radius:50%;
-	background:#2fca2d;
+	background:#432300;
 	color:#fff;
 	display:block;
 }
@@ -218,7 +218,7 @@ body{
 /*.top-bar*/
 
 .top-bar{
-	padding:25px 0;
+	padding:10px 0;
 	position:fixed;
 	width:100%;
 	top:0;
@@ -230,9 +230,16 @@ body{
 .nav-list{
 	padding-right:28px;
 }
+
+
 .navbar-default {
 	background-color: transparent;
 }
+
+.top-logo{
+	width: 150px;
+}
+
 .navbar {
 	position: relative;
 	min-height: 40px;
@@ -256,8 +263,8 @@ body{
 }
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #2fca2d;
-	border-color: #2fca2d;
+	background-color: #432300;
+	border-color: #432300;
 }
 .nav > li > a {
 	padding: 10px 20px;
@@ -270,7 +277,7 @@ body{
 }
 .navbar-default .navbar-nav > li.current > a, 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #2fca2d;
+	color: #432300;
 	background-color: transparent;
 }
 
@@ -423,13 +430,13 @@ body{
 	border-radius:50%;
 	font-family: 'icofont';
 	font-size:20px;
-	color:#2fca2d;
+	color:#432300;
 	text-indent:0;
 	transition:all .5s ease;
 }
 .bx-wrapper .bx-prev:hover:after,
 .bx-wrapper .bx-next:hover:after{
-	background:#2fca2d;
+	background:#432300;
 	color:#fff;
 }
 .bx-wrapper .bx-prev::after {
@@ -455,7 +462,7 @@ body{
 	padding:48px 0 50px;
 }
 .about-text h2 span{
-	color:#2fca2d;
+	color:#432300;
 }
 .about-text h4{
 	padding:14px 0 6px;
@@ -472,7 +479,7 @@ body{
 	font-weight:300;
 }
 .about-text ul li .icofont{
-	color:#2fca2d;
+	color:#432300;
 	padding-right:9px;
 }
 
@@ -515,7 +522,7 @@ body{
 	top: -15px;
 }
 .appointment-form .success {
-	color: #2fca2d;
+	color: #432300;
 	margin: -5px 0 20px;
 }
 .appointment-form .error {
@@ -530,7 +537,7 @@ body{
 	padding:116px 0 110px;
 }
 .single-floor h2 span{
-	color:#2fca2d;
+	color:#432300;
 }
 .single-floor h4{
 	padding:14px 0 46px;
@@ -547,7 +554,7 @@ body{
 	padding:40px 0 38px;
 }
 .single-floor-feature .icofont{
-	color:#2fca2d;
+	color:#432300;
 	font-size:36px;
 }
 .single-floor-feature h6{
@@ -593,7 +600,7 @@ body{
 	padding-left:20px;
 }
 .room-features-texts h2 span{
-	color:#2fca2d;
+	color:#432300;
 }
 .room-features-texts h4{
 	padding:12px 0 17px;
@@ -609,7 +616,7 @@ body{
 .room-features-texts ul li:before{
 	font-family: 'IcoFont' !important;
 	content: "\efab";
-	color:#2fca2d;
+	color:#432300;
 	margin-right:10px;
 }
 
@@ -639,7 +646,7 @@ body{
 	margin-bottom:30px;
 }
 .single-place .icofont{
-	color:#2fca2d;
+	color:#432300;
 	font-size:36px;
 }
 .single-place h6{
@@ -664,7 +671,7 @@ body{
 }
 .testimonial-text h5 small{
 	font-weight:900;
-	color:#2fca2d;
+	color:#432300;
 	display:block;
 	font-size:12px;
 	padding-bottom:11px;
@@ -693,8 +700,8 @@ body{
 .slick-dots li.slick-active button {
 	width: 26px;
 	opacity:1;
-	background: #2fca2d;
-	color:#2fca2d;
+	background: #432300;
+	color:#432300;
 }
 
 
@@ -729,7 +736,7 @@ body{
 	display:block;
 }
 .copyright-text a{
-	color:#2fca2d;
+	color:#432300;
 }
 .copyright-text a:hover{
 	color:#000;
@@ -737,6 +744,10 @@ body{
 .footer-logo{
 	padding:15px 0;
 	display:block;
+}
+
+.foot-logo{
+	width: 150px;
 }
 .footer-links{
 	padding:15px 0;
@@ -752,7 +763,7 @@ body{
 }
 .footer-links li a:hover{
 	display:inline-block;
-	color:#2fca2d;
+	color:#432300;
 }
 
 
