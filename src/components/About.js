@@ -1,54 +1,96 @@
 import React from "react";
+import Heading from "./elements/Heading";
+import LiItem from "./elements/LiItem";
 
 const About = () => {
+  const liContent = [
+    {
+      id: 1,
+      liText: "23 Square Feet",
+      iconVal: "true",
+      iconClass: "icofont icofont-ruler-pencil",
+    },
+    {
+      id: 2,
+      liText: "2 Foors",
+      iconVal: "true",
+      iconClass: "icofont icofont-bricks",
+    },
+    {
+      id: 3,
+      liText: "1 Living Room",
+      iconVal: "true",
+      iconClass: "icofont icofont-multimedia",
+    },
+    {
+      id: 4,
+      liText: "4 Bed Rooms",
+      iconVal: "true",
+      iconClass: "icofont icofont-bed",
+    },
+    {
+      id: 5,
+      liText: "6 Bath Rooms",
+      iconVal: "true",
+      iconClass: "icofont icofont-bathtub",
+    },
+    {
+      id: 6,
+      liText: "2 Car parking",
+      iconVal: "true",
+      iconClass: "icofont icofont-car-alt-2",
+    },
+    {
+      id: 7,
+      liText: "2 kitchen",
+      iconVal: "true",
+      iconClass: "icofont icofont-fork-and-knife",
+    },
+    {
+      id: 8,
+      liText: "1 Swiming Pool",
+      iconVal: "true",
+      iconClass: "icofont icofont-swimmer",
+    },
+    {
+      id: 9,
+      liText: "2015 Year Build",
+      iconVal: "true",
+      iconClass: "icofont icofont-calendar",
+    },
+    {
+      id: 10,
+      liText: "2 Water Tank",
+      iconVal: "true",
+      iconClass: "icofont icofont-water-drop",
+    },
+  ];
+
   return (
     <div className="about-section alt-bg" id="about">
       <div className="container">
         <div className="row">
           <div className="col-md-7">
             <div className="about-text">
-              <h2>
-                About <span>Nipe.</span>
-              </h2>
-              <h4>Lets learn a little bit more about nipe vila</h4>
+              <Heading
+                h2Text="About"
+                spanText="Nipe."
+                h4Text="Lets learn a little bit more about nipe vila"
+              />
               <p>
                 Gain is there anyone who loves or pursues or desires to obtain
                 pain of itself, because it is pain, but because occasionally
                 circumstances occur in which toil and pain can procure.
               </p>
               <ul className="about-list">
-                <li>
-                  <i className="icofont icofont-ruler-pencil" />
-                  2375 Square Feet
-                </li>
-                <li>
-                  <i className="icofont icofont-bricks" />2 Foors
-                </li>
-                <li>
-                  <i className="icofont icofont-multimedia" />1 Living Room
-                </li>
-                <li>
-                  <i className="icofont icofont-bed" />4 Bed Rooms
-                </li>
-                <li>
-                  <i className="icofont icofont-bathtub" />6 Bath Rooms
-                </li>
-                <li>
-                  <i className="icofont icofont-car-alt-2" />2 Car parking
-                </li>
-                <li>
-                  <i className="icofont icofont-fork-and-knife" />2 kitchen
-                </li>
-                <li>
-                  <i className="icofont icofont-swimmer" />1 Swiming Pool
-                </li>
-                <li>
-                  <i className="icofont icofont-calendar" />
-                  2015 Year Build
-                </li>
-                <li>
-                  <i className="icofont icofont-water-drop" />2 Water Tank
-                </li>
+                {liContent.map((item) => (
+                  <LiItem
+                    key={item.id}
+                    liText={item.liText}
+                    iconVal={item.iconVal}
+                    iconClass={item.iconClass}
+                  />
+                ))}
               </ul>
             </div>
           </div>

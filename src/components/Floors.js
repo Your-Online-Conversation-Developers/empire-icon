@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "./elements/Heading";
 
 const Floors = () => {
   return (
@@ -14,10 +15,12 @@ const Floors = () => {
               </div>
               {/* .col */}
               <div className="col-md-6">
-                <h2>
-                  First <span>Floor.</span>
-                </h2>
-                <h4>Lets take a look at nipe vila’s first floor</h4>
+                <Heading
+                  h2Text="First"
+                  spanText="Floor."
+                  h4Text="Lets take a look at nipe vila’s first floor"
+                />
+
                 <div className="row text-center">
                   <div className="col-sm-6">
                     <div className="single-floor-feature">
@@ -64,10 +67,11 @@ const Floors = () => {
               </div>
               {/* .col */}
               <div className="col-md-6">
-                <h2>
-                  First <span>Floor.</span>
-                </h2>
-                <h4>Lets take a look at nipe vila’s first floor</h4>
+                <Heading
+                  h2Text="Second"
+                  spanText="Floor."
+                  h4Text="Lets take a look at nipe vila’s first floor"
+                />
                 <div className="row text-center">
                   <div className="col-sm-6">
                     <div className="single-floor-feature">

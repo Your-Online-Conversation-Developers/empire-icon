@@ -1,6 +1,38 @@
 import React from "react";
+import Heading from "./elements/Heading";
+import LiItem from "./elements/LiItem";
 
 const Rooms = () => {
+  const liContent = [
+    {
+      id: 1,
+      liText: "4 Square Feet",
+    },
+    {
+      id: 2,
+      liText: "1 King size bed",
+    },
+    {
+      id: 3,
+      liText: "2 Table lamp",
+    },
+    {
+      id: 4,
+      liText: "Console table",
+    },
+    {
+      id: 5,
+      liText: "Royel touch paint",
+    },
+    {
+      id: 6,
+      liText: "60’’ Toshiba TV",
+    },
+    {
+      id: 7,
+      liText: "Attached bathroom",
+    },
+  ];
   return (
     <div className="room-features-section">
       <div className="container">
@@ -17,21 +49,16 @@ const Rooms = () => {
           {/* .col */}
           <div className="col-md-6">
             <div className="room-features-texts">
-              <h2>
-                Master <span>Bedroom.</span>
-              </h2>
-              <h4>
-                Lets take a look at nipe vila’s master bed rooms and things they
-                contains.
-              </h4>
+              <Heading
+                h2Text="Master"
+                spanText="Bedroom."
+                h4Text="Lets take a look at nipe vila’s master bed rooms and things they
+                contains."
+              />
               <ul>
-                <li>430 Square Feet</li>
-                <li>1 King size bed</li>
-                <li>2 Table lamp</li>
-                <li>Console table</li>
-                <li>Royel touch paint</li>
-                <li>60’’ Toshiba TV</li>
-                <li>Attached bathroom</li>
+                {liContent.map((item) => (
+                  <LiItem key={item.id} liText={item.liText} />
+                ))}
               </ul>
             </div>
           </div>

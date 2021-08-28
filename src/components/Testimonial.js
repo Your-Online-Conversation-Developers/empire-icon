@@ -1,4 +1,6 @@
 import React from "react";
+import Buttton from "./elements/Buttton";
+import Heading from "./elements/Heading";
 
 const Testimonial = () => {
   return (
@@ -7,13 +9,13 @@ const Testimonial = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="side-head">
-              <h2>
-                Client <span>Words.</span>
-              </h2>
-              <h4>Don’t take our words take a look at client words.</h4>
-              <a href="/" className="button sm">
-                be one of them
-              </a>
+              <Heading
+                h2Text="Client"
+                spanText="Words."
+                h4Text="Don’t take our words take a look at client words."
+              />
+
+              <Buttton aText="be one of them" aLink="/" classes="button sm" />
             </div>
           </div>
           {/* .col */}

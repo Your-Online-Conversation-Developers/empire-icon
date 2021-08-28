@@ -1,13 +1,7 @@
-/*
-	Author: BestPixels
-	Template: Home | Single Property HTML Template
-	Version: 1.0
-*/
-	
 "use strict";
 
 /*global jQuery, $*/
-jQuery(document).ready(function(){
+jQuery(function(){
 	
 	// Smooth scrolling using jQuery easing
 	$('a.nav-item[href*="#"]:not([href="#"])').on("click", function() {

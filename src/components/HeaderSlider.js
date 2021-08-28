@@ -1,4 +1,5 @@
 import React from "react";
+import Buttton from "./elements/Buttton";
 
 const HeaderSlider = () => {
   return (
@@ -21,9 +22,11 @@ const HeaderSlider = () => {
                     <h5 className="appear-from-right">
                       2901 S. Capital Texas Austin, TX 78746{" "}
                     </h5>
-                    <a href="/" className="button sm appear-from-bottom">
-                      take a details look
-                    </a>
+                    <Buttton
+                      aText="take a details look"
+                      aLink="/"
+                      classes="button sm appear-from-bottom"
+                    />
                   </div>
                 </div>
                 {/* .col */}
@@ -101,9 +104,11 @@ const HeaderSlider = () => {
                     <h5 className="appear-from-right">
                       2901 S. Capital Texas Austin, TX 78746{" "}
                     </h5>
-                    <a href="/" className="button sm appear-from-bottom">
-                      take a details look
-                    </a>
+                    <Buttton
+                      aText="take a details look"
+                      aLink="/"
+                      classes="button sm appear-from-bottom"
+                    />
                   </div>
                 </div>
                 {/* .col */}

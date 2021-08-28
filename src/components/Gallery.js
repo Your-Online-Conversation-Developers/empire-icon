@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "./elements/Heading";
 
 const Gallery = () => {
   return (
@@ -7,10 +8,11 @@ const Gallery = () => {
         <div className="section-head">
           <div className="row text-center">
             <div className="col-md-12">
-              <h2>
-                Photo <span>Gallery.</span>
-              </h2>
-              <h4>Lets take a look at nipe vila’s photo gallery</h4>
+              <Heading
+                  h2Text="Photo"
+                  spanText="Gallery."
+                  h4Text="Lets take a look at nipe vila’s photo gallery"
+                />
             </div>
             {/* .col */}
           </div>

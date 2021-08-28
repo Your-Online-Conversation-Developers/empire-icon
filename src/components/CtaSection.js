@@ -1,4 +1,5 @@
 import React from "react";
+import Buttton from "./elements/Buttton";
 
 const CtaSection = () => {
   return (
@@ -9,9 +10,11 @@ const CtaSection = () => {
             <div className="col-md-12">
               <h2>See all this in person</h2>
               <h4>schedule a meeting with our agent</h4>
-              <a href="/" className="button">
-                Get an appointment
-              </a>
+              <Buttton 
+                aLink="/"
+                aText="Get an appointment"
+                classes="button"
+              />
             </div>
           </div>
         </div>
