@@ -21,6 +21,7 @@ const Testimonial = () => {
           {/* .col */}
           <div className="col-md-8">
             <div className="testimonials-list">
+
               <div className="single-testimonial">
                 <div className="row">
                   <div className="col-md-5 col-sm-4">
@@ -32,12 +33,10 @@ const Testimonial = () => {
                   <div className="col-md-7 col-sm-8">
                     <div className="testimonial-text">
                       <blockquote>
-                        One morning, when Gregor Samsa woke from troubled
-                        dreams, he found himself transformed in his bed into a
-                        horrible vermin. He lay on his armour-like back.
+                      Absolutely wonderful! I am completely blown away. We can't understand how we've been living without Empire Icon.
                       </blockquote>
                       <h5>
-                        <small>new york , USA</small>Moshua Robinson
+                        <small>Karachi , Pakistan</small>Mohsin Zia
                       </h5>
                     </div>
                   </div>
@@ -57,13 +56,10 @@ const Testimonial = () => {
                   <div className="col-md-7 col-sm-8">
                     <div className="testimonial-text">
                       <blockquote>
-                        Even the all-powerful Pointing has no control about the
-                        blind texts it is an almost unorthogra phic life One day
-                        however a small line of blind text to leave for the far
-                        World of Grammar.
+                      Definitely worth the investment. You've saved our business! I would also like to say thank you to all your staff. I have gotten at least 50 times the value from Empire Icon.
                       </blockquote>
                       <h5>
-                        <small>new york , USA</small>Larry Gonzales
+                        <small>Lahore , Pakistan</small>Sadia Waqar 
                       </h5>
                     </div>
                   </div>
@@ -72,6 +68,7 @@ const Testimonial = () => {
                 {/* .row */}
               </div>
               {/* .single-testimonial */}
+            
             </div>
             {/* .testimonials-list */}
           </div>

@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Buttton = ({ aText, aLink, dataEffect = "", classes }) => {
   return (
     <>
-      <a href={aLink} data-effect={dataEffect} className={classes}>
+      <Link href={aLink} data-effect={dataEffect} className={classes}>
         {aText}
-      </a>
+      </Link>
     </>
   );
 };

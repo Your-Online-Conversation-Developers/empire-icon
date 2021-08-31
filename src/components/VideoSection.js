@@ -7,7 +7,7 @@ const VideoSection = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
-              <h2>Take a quick look</h2>
+              <h2>Take a Quick Look</h2>
             </div>
             {/* .col */}
           </div>
@@ -18,7 +18,7 @@ const VideoSection = () => {
             <div className="col-md-6">
               <div className="video-border">
                 <a
-                  href="https://www.youtube.com/watch?v=kuceVNBTJio"
+                  href="/"
                   data-effect="mfp-3d-unfold"
                   className="play-button embaded-popup"
                 >
