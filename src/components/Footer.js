@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="col-md-3 col-sm-12 mobile-center">
         <h3>Get Direction</h3>
-        { iFrame }
+        { {iFrame} }
         </div>
 
 
