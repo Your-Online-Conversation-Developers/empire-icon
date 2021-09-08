@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Iframe from 'react-iframe'
 
 const Footer = () => {
     return (
@@ -33,17 +32,9 @@ const Footer = () => {
 
 
         <div className="col-md-3 col-sm-12 mobile-center">
-          <h3>Get Direction</h3>
-          <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
-              width="600"
-              height="450"
-              frameBorder="0"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              aria-hidden="false"
-              tabIndex="0"
-            />
+        <h3>Get Direction</h3>
+        <iframe title="junaidFr" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4015369166577!2d67.32999051432422!3d25.054376143629803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34b525fa737f9%3A0x43624028ddb19e6!2sEmpire%20Icon!5e0!3m2!1sen!2s!4v1631098983287!5m2!1sen!2s" width="600" height="450" 
+        style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
         </div>
 
 
