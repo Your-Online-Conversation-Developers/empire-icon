@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const iFrame = '<iframe title="mynewempireFramme" src="" width="600" height="450"  style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>';
     return (
 <div className="footer-section">
       <div className="container">
@@ -33,8 +34,7 @@ const Footer = () => {
 
         <div className="col-md-3 col-sm-12 mobile-center">
         <h3>Get Direction</h3>
-        <iframe title="mynewempireFramme" src="" width="600" height="450" 
-        style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
+        { iFrame }
         </div>
 
 
