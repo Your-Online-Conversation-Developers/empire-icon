@@ -31,6 +31,9 @@ const Footer = () => {
               <li>
                 <Link to="/">Contact Us</Link>
               </li>
+              <li>
+                <a href="https://casamiadreams.com/" target="_blank">Casamia Dreams</a>
+              </li>
             </ul>
           </div>
           <div className="col-12 col-sm-6 col-md-3 mt-2 footer-info">

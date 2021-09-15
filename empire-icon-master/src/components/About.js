@@ -7,13 +7,13 @@ const About = () => {
   const liContent = [
     {
       id: 1,
-      liText: "23 Square Feet",
+      liText: "2500 Sq Yards",
       iconVal: "true",
       iconClass: "icofont icofont-ruler-pencil",
     },
     {
       id: 2,
-      liText: "2 Foors",
+      liText: "Ground + 26 Floors",
       iconVal: "true",
       iconClass: "icofont icofont-bricks",
     },
@@ -43,15 +43,15 @@ const About = () => {
     },
     {
       id: 7,
-      liText: "kitchen",
+      liText: "Kitchen",
       iconVal: "true",
       iconClass: "icofont icofont-fork-and-knife",
     },
     {
       id: 8,
-      liText: "Swiming Pool",
+      liText: "Gym",
       iconVal: "true",
-      iconClass: "icofont icofont-swimmer",
+      iconClass: "icofont icofont-gym-alt-3",
     },
     {
       id: 9,
