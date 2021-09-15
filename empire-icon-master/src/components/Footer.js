@@ -13,6 +13,7 @@ const Footer = () => {
             <p>
             Gain is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure.
             </p>
+
             
           </div>
           <div className="col-12 col-sm-6 col-md-3 mt-2 ">
