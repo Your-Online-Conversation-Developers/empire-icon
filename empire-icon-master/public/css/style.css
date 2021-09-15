@@ -946,6 +946,12 @@ body {
   opacity: 0;
 }
 
+
+.calltoaction {
+  background-color: black;
+}
+
+
 /*Coustom Media Query CSS*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

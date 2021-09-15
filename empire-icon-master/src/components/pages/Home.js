@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About';
 import CtaSection from '../CtaSection';
+import Call from '../elements/Call';
 import Floors from '../Floors';
 import Gallery from '../Gallery';
 import HeaderSlider from '../HeaderSlider';
@@ -21,6 +22,7 @@ const Home = () => {
             <PlacesSection />
             <Projects />
             <CtaSection />
+            {/* <Call /> */}
         </div>
     )
 }
