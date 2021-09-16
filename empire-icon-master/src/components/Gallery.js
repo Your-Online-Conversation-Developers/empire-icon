@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "./elements/Heading";
-
+ 
 const Gallery = () => {
   return (
     <div className="gallery-section alt-bg" id="gallery">
